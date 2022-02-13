@@ -19,7 +19,7 @@ class UserProfile extends React.Component {
     const {name, email} = this.props
     const {posts} = this.state
     return (
-      <div className="user-profile">
+      <div className="container">
         <h1>{name}</h1>
         <p>{email}</p>
         <hr />
