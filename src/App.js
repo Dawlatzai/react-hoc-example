@@ -5,9 +5,13 @@ import UserList from './components/user-list/user-list.component'
 function App() {
   return (
     <div className="App">
-      <UserList />
+      <UserList dataSource="https://jsonplaceholder.typicode.com/users" />
 
-      <UserProfile name="Ali" email="Ali@email.com" />
+      <UserProfile
+        name="Ali"
+        email="Ali@email.com"
+        dataSource="https://jsonplaceholder.typicode.com/posts"
+      />
     </div>
   )
 }
